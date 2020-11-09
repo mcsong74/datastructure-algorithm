@@ -1,4 +1,4 @@
-package assignment01;
+package com.mcs;
 
 import java.util.Arrays;
 

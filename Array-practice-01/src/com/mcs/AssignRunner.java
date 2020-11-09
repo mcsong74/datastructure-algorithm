@@ -1,4 +1,4 @@
-package assignment01;
+package com.mcs;
 
 public class AssignRunner {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package assignment01;
+package com.mcs;
 
 
-import assignment01.interfaces.Rotate90Right;
-import assignment01.services.NxNarray;
+import com.mcs.interfaces.Rotate90Right;
+import com.mcs.services.NxNarray;
 
 public class MainAssign {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package assignment01;
+package com.mcs;
 
 public class ArrayUtils {
     //1. Reverse order of an array of unordered integer

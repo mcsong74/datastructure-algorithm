@@ -1,4 +1,4 @@
-package assignment01.interfaces;
+package com.mcs.interfaces;
 
 public interface Rotate90Right   {
 

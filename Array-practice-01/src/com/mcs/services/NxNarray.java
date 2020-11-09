@@ -1,7 +1,7 @@
-package assignment01.services;
+package com.mcs.services;
 
 
-import assignment01.interfaces.Rotate90Right;
+import com.mcs.interfaces.Rotate90Right;
 
 public class NxNarray implements Rotate90Right {
     private int [][] _2DArray;
