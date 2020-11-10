@@ -1,4 +1,4 @@
-package com.mcs;
+package com.mcs.services;
 
 import java.util.NoSuchElementException;
 public class MyStack<T> {
