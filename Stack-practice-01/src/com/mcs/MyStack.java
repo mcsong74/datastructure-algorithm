@@ -86,15 +86,18 @@ public class MyStack<T> {
         }
         return array;
     }
-    public void printStack(){
+    public String converStackToString(){
+        String strConverted="";
         if (isEmpty())
             throw new NoSuchElementException();
 
-        System.out.print("Top: [ ");
+//        System.out.print("Top: [ ");
         while(!isEmpty()){
-            System.out.print(" <- ["+pop()+"] ");
+            strConverted+=pop();
+//            System.out.print(" <- ["+pop()+"] ");
 
         }
-        System.out.print(" ] : Bottom\n");
+//        System.out.print(" ] : Bottom\n");
+        return strConverted;
     }
 }
