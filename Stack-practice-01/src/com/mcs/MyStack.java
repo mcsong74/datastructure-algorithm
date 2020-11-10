@@ -89,11 +89,12 @@ public class MyStack<T> {
     public void printStack(){
         if (isEmpty())
             throw new NoSuchElementException();
-        System.out.print("Top: [\t");
-        while(bottom!=null){
+
+        System.out.print("Top: [ ");
+        while(!isEmpty()){
             System.out.print(" <- ["+pop()+"] ");
 
         }
-        System.out.print("\t] : Bottom");
+        System.out.print(" ] : Bottom\n");
     }
 }
