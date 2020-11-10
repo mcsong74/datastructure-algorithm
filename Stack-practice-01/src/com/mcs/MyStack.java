@@ -86,7 +86,7 @@ public class MyStack<T> {
         }
         return array;
     }
-    public String converStackToString(){
+    public String convertStackToString(){
         String strConverted="";
         if (isEmpty())
             throw new NoSuchElementException();
