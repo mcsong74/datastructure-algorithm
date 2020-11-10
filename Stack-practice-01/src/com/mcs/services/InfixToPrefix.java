@@ -67,7 +67,7 @@ public class InfixToPrefix implements InfixPreFixPostFix {
         while(!operatorStack.isEmpty()){
             resultStack.push(operatorStack.pop());
         }
-
+//        System.out.println("resultStack.getTop() = " + resultStack.getTop());
         System.out.println("result stack in Array = bottom <- "+ Arrays.toString(resultStack.toArray())+" <- top");
         System.out.println("Infix = ["+infixStr+"] to prefix = ["+resultStack.getPrefixString()+"]");
 
