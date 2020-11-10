@@ -86,7 +86,7 @@ public class MyStack<T> {
         }
         return array;
     }
-    public String convertStackToString(){
+    public String getPrefixString(){
         String strConverted="";
         if (isEmpty())
             throw new NoSuchElementException();
@@ -98,6 +98,17 @@ public class MyStack<T> {
 
         }
 //        System.out.print(" ] : Bottom\n");
+        return strConverted;
+    }
+    public String getPostfixString(){
+        String strConverted="";
+        if (isEmpty())
+            throw new NoSuchElementException();
+        char[] tempArr=toArray();
+        for(char chr:tempArr){
+            strConverted+=chr;
+        }
+
         return strConverted;
     }
 }

@@ -1,6 +1,7 @@
 package com.mcs;
 
 import com.mcs.interfaces.InfixPreFixPostFix;
+import com.mcs.services.InfixToPostFix;
 import com.mcs.services.InfixToPrefix;
 import com.mcs.services.MyStack;
 
@@ -24,10 +25,8 @@ public class InfixConvertRunner {
 //        2.  Infix to Prefix notation Algorithm and implement it in java using your own linked list stack class. Try
 //        different examples
 
-        String infix2="A + B * C + D";
-        infix2=infix2.replaceAll("\\s", "");
-        System.out.println("infix = " + infix2);
-
-
+        System.out.println("\nInput infix received = " + infix);
+        InfixPreFixPostFix toPostFix=new InfixToPostFix(new MyStack<>(), new MyStack<>(), infix);
+        toPostFix.convertInfixTo();
     }
 }

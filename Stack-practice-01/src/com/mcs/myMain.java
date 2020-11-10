@@ -54,7 +54,7 @@ public class myMain {
 
 
         System.out.println("result stack in Array = "+Arrays.toString(resultStack.toArray()));
-        System.out.println("Infix = ["+infix+"] to prefix = ["+resultStack.convertStackToString()+"]");
+        System.out.println("Infix = ["+infix+"] to prefix = ["+resultStack.getPrefixString()+"]");
 
 //        System.out.println("operatorStack.pop() = " + operatorStack.pop());
 //        System.out.println("getOperatorPriority() = " + getOperatorPriority('*'));
