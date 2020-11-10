@@ -90,13 +90,16 @@ public class MyStack<T> {
         String strConverted="";
         if (isEmpty())
             throw new NoSuchElementException();
-
-//        System.out.print("Top: [ ");
-        while(!isEmpty()){
-            strConverted+=pop();
-//            System.out.print(" <- ["+pop()+"] ");
-
+        char[] tempArr=toArray();
+        for (int index=tempArr.length-1; index>=0; index--){
+            strConverted+=tempArr[index];
         }
+//        System.out.print("Top: [ ");
+//        while(!isEmpty()){
+//            strConverted+=pop();
+////            System.out.print(" <- ["+pop()+"] ");
+//
+//        }
 //        System.out.print(" ] : Bottom\n");
         return strConverted;
     }
