@@ -4,7 +4,7 @@ import com.mcs.services.MyStack;
 
 import java.util.Arrays;
 
-public class myMain {
+public class MyMain {
     public static void main(String[] args) {
 
 //        1.  Infix to Post fix notation Algorithm and implement it in java using your own linked list stack class.
